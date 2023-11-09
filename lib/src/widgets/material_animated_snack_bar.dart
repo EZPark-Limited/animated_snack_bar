@@ -105,6 +105,7 @@ class MaterialAnimatedSnackBar extends StatelessWidget {
                     style: messageTextStyle ??
                         Theme.of(context).textTheme.bodyLarge?.copyWith(
                               color: foregroundColor,
+                              fontFamily: 'helvetica',
                             ),
                   ),
                 ],
